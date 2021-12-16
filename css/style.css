@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'open_sansregular', sans-serif;
+    height: 100vh;
+    font-size: 16px;
+}
+.header{
+    width: 100vw;
+    background-image: url("../images/bg.jpg");
+}
+.container{
+    width: 58.125rem;
+    margin: 0 auto;
+
+}
+.header .container{
+    display: flex;
+    height: 37.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo2{
+    margin-top: auto;
+}
+
+.header_text{
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+    font-weight: lighter;
+}
+.main_content{
+    height: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_title{
+    padding-bottom: 1.25rem;
+    font-size: 1.875rem;
+    color: #232323;
+}
+.main_text{
+    font-size: 1rem;
+    color: #838383;
+    text-align: center;
+}
+
+.box_content{
+    display: flex;
+    align-items: flex-end;
+}
+.box:nth-child(2){
+    border-right: 1px solid rgba(131, 131, 131, 0.15);
+    border-left: 1px solid rgba(131, 131, 131, 0.15);
+}
+footer .container{
+    display: flex;
+    align-items: flex-end;
+}
+.box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin:auto;
+}
+.content_title{
+    color: #232323;
+    padding-bottom: 1.25rem;
+    font-size: 1.5rem;
+}
+.content_text{
+    font-size: 1rem;
+    color: #838383;
+    text-align: center;
+}
